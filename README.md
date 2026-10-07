@@ -6,7 +6,7 @@
 
 **重点适配五类岗位：产品、运营／市场、项目管理、设计、研发。** 其他岗位可以根据实际目标要求调整问题，但当前没有覆盖所有行业或普遍提升求职成功率的验证结论。
 
-[查看 Skill 规则](target-jd-blueprint/SKILL.md) · [职业方法参考](target-jd-blueprint/references/role-lenses.md) · [项目模板](website/materials/真实项目.md) · [参与改进](CONTRIBUTING.md)
+[在线网站](https://chansonkang.github.io/youju-career-blueprint/) · [查看 Skill 规则](target-jd-blueprint/SKILL.md) · [职业方法参考](target-jd-blueprint/references/role-lenses.md) · [项目模板](website/materials/真实项目.md) · [参与改进](CONTRIBUTING.md)
 
 ## 为什么做这个项目
 
