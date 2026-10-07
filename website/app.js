@@ -1,7 +1,7 @@
 const cases = {
-  resume:{targetLabel:'目标要求',target:'能定位用户流失，设计引导方案，并定义验证指标。',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['针对首次创建项目的流失，','将引导拆为三步，负责方案、需求与验收；','上线前后24小时完成率32% → 46%，','增加14个百分点。（模拟）'],scene:'求职简历'},
-  interview:{targetLabel:'面试关注',target:'为什么这样设计？你负责什么？结果由什么证据支持？',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['我提出三步引导，负责需求与验收。','两期各观察1,000名新用户，','24小时完成率由32%变为46%。','这是前后对比，尚未验证因果。（模拟）'],scene:'求职面试'},
-  promotion:{targetLabel:'示范论证方向',target:'说明业务判断、个人交付和团队结果；实际晋升还需组织职级标准。',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['针对关键动作流失提出三步引导，','个人交付是方案、需求与验收。','团队观察结果为32% → 46%；','职级标准与独立归因仍需补证。（模拟）'],scene:'晋升答辩'}
+  resume:{targetLabel:'目标要求',target:'能定位用户流失，设计引导方案，并定义验证指标。',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['针对首次创建项目的流失，','将引导拆为三步，负责方案、需求与验收；','上线前后24小时完成率32% → 46%，','增加14个百分点。'],scene:'求职简历'},
+  interview:{targetLabel:'面试关注',target:'为什么这样设计？你负责什么？结果由什么证据支持？',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['我提出三步引导，负责需求与验收。','两期各观察1,000名新用户，','24小时完成率由32%变为46%。','这是前后对比，尚未验证因果。'],scene:'求职面试'},
+  promotion:{targetLabel:'示范论证方向',target:'说明业务判断、个人交付和团队结果；实际晋升还需组织职级标准。',before:['做了新用户引导优化。','主要负责需求和验收，','转化率从32%到了46%。'],after:['针对关键动作流失提出三步引导，','个人交付是方案、需求与验收。','团队观察结果为32% → 46%；','职级标准与独立归因仍需补证。'],scene:'晋升答辩'}
 };
 const tabs=Array.from(document.querySelectorAll('[data-case]'));
 function renderLines(id,lines){const target=document.getElementById(id);target.replaceChildren();lines.forEach((line,index)=>{if(index)target.append(document.createElement('br'));target.append(document.createTextNode(line));});}
