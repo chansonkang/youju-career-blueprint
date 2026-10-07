@@ -1,0 +1,4 @@
+interface:
+  display_name: "有据 · 目标岗位与项目表达"
+  short_description: "继承目标 JD 简历流程，用真实项目与证据形成求职和晋升材料"
+  default_prompt: "使用 $target-jd-blueprint，结合我的目标 JD 或晋升标准及真实项目，分析要求、核对贡献与证据，并生成职业材料和最少待补项。"
